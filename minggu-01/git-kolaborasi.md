@@ -1,5 +1,5 @@
 ## Add Fork
-![Add fork](gambar-05.png)
+![add fork](gambar-05.PNG)
 ## Add remote upstream
 ![add remote upstream](gambar-06.PNG)
 ## Push contributed to the origin repo
