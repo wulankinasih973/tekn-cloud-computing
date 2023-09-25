@@ -17,7 +17,7 @@ Lucidchart adalah layanan SaaS (Software as a Service) yang digunakan untuk memb
 - **Template dan Bentuk Prapaket:** Lucidchart menyediakan berbagai template dan bentuk prapaket yang dapat membantu Anda memulai dengan cepat dalam membuat berbagai jenis diagram.
 
 Lucidchart telah menjadi salah satu alat yang sangat populer dalam dunia bisnis, pendidikan, dan teknologi karena kemudahan penggunaannya, kemampuan kolaborasi timnya, dan fleksibilitas dalam pembuatan berbagai jenis diagram.
-###2. Creately
+### 2. Creately
 Creately adalah layanan SaaS (Software as a Service) yang digunakan untuk membuat diagram dan visualisasi secara kolaboratif di cloud. Ini memiliki berbagai fitur yang memungkinkan pengguna untuk membuat berbagai jenis diagram dengan mudah dan bekerja sama dengan anggota tim atau rekan kerja dalam proyek yang sama. Berikut adalah penjelasan lebih lanjut tentang Creately:
 
 - **Pembuatan Diagram yang Beragam:** Creately menyediakan berbagai jenis alat untuk membuat berbagai jenis diagram, seperti diagram alir, diagram organisasi, diagram aliran kerja, diagram UML (Unified Modeling Language), diagram ERD (Entity Relationship Diagram), dan banyak lagi. Ini memungkinkan pengguna untuk memenuhi berbagai kebutuhan dalam pembuatan diagram.
@@ -33,8 +33,8 @@ Creately adalah layanan SaaS (Software as a Service) yang digunakan untuk membua
 - **Versi Gratis dan Berbayar:** Creately menawarkan versi gratis dengan fitur terbatas, serta opsi berbayar dengan fitur lebih lengkap, kapasitas penyimpanan yang lebih besar, dan dukungan pelanggan yang lebih baik.
 
 Creately adalah alat yang populer dalam berbagai industri dan bidang, termasuk bisnis, pendidikan, dan pengembangan perangkat lunak, karena kemudahan penggunaannya, kemampuan kolaborasi timnya, dan berbagai fitur yang mendukung pembuatan diagram yang profesional.
-##Software Desktop / Non Cloud yang Mempunyai Fungsionalitas Sama
-###1. LibreOffice Draw
+## Software Desktop / Non Cloud yang Mempunyai Fungsionalitas Sama
+### 1. LibreOffice Draw
 LibreOffice Draw adalah salah satu komponen dari paket perangkat lunak sumber terbuka LibreOffice, yang digunakan untuk membuat berbagai jenis diagram, gambar vektor, dan grafik. Berikut adalah penjelasan lebih lanjut tentang LibreOffice Draw:
 
 - **Pembuatan Diagram dan Gambar Vektor:** LibreOffice Draw adalah alat yang digunakan untuk membuat berbagai jenis diagram, grafik, dan gambar vektor. Anda dapat membuat diagram alir, diagram organisasi, diagram aliran kerja, diagram teknis, dan berbagai jenis ilustrasi.
@@ -52,7 +52,7 @@ LibreOffice Draw adalah salah satu komponen dari paket perangkat lunak sumber te
 - **Multiplatform:** LibreOffice Draw tersedia untuk berbagai platform, termasuk Windows, macOS, dan Linux, sehingga Anda dapat menggunakannya di berbagai sistem operasi.
 
 LibreOffice Draw adalah alat yang kuat dan serbaguna untuk membuat diagram dan gambar vektor. Meskipun tidak selengkap beberapa perangkat lunak komersial, itu dapat memenuhi banyak kebutuhan dalam pembuatan berbagai jenis visualisasi, dan sebagai perangkat lunak sumber terbuka, itu mendukung kebebasan berbagi dan mengedit dokumen.
-###2. Pencil Project
+### 2. Pencil Project
 Pencil Project (atau sering disingkat sebagai Pencil) adalah perangkat lunak sumber terbuka yang digunakan untuk membuat prototipe antarmuka pengguna (UI) dan diagram alur kerja dengan tujuan merancang dan menguji tampilan dan fungsi aplikasi, situs web, atau produk perangkat lunak. Berikut adalah penjelasan lebih lanjut tentang Pencil Project:
 
 - **Desain Antarmuka Pengguna:** Pencil Project dirancang khusus untuk membantu desainer dan pengembang dalam merancang antarmuka pengguna yang interaktif. Ini memungkinkan mereka untuk membuat prototipe visual yang menampilkan tata letak, elemen-elemen antarmuka, dan perpindahan antar halaman atau layar.
