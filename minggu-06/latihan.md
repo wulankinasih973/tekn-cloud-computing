@@ -1,4 +1,4 @@
-### Contoh Program Go untuk Koneksi dan Membaca Data dari MySQL dan MongoDB
+### Membuat Koneksi dan Membaca Data dari MySQL dan MongoDB
 Pastikan anda sudah menginstall Go dan mysql server, anda bisa cek Go version dengan perintah berikut:
 ![Cek Go Version](gambar-01.png)
 
@@ -19,6 +19,8 @@ go get .
 go run go-mongodb.go
 ```
 ![Running go-mongodb.go](gambar-02.png)
+
+### RESTful API Untuk Membaca Data dari MySQL dan MongoDB
 
 Untuk menjalankan file `restful-api.go`, gunakan perintah berikut:
 ```
