@@ -159,7 +159,6 @@ Setelah menjalankan perintah, Docker memulai sesi bash interaktif di direktori r
 ![](gambar-29.png)
 
 Dari dalam container, masuk ke direktori `src` kemudian cek isi direktorinya. Setelah itu buat sebuah file baru dengan nama `myfile.txt`.  
-![membuat file baru di dalam direktori src]
 ![cd-src](gambar-30.png)
 ![create-new-file](gambar-31.png)    
   
