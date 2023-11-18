@@ -1,13 +1,4 @@
 # Tugas Minggu 08
-Buatlah satu diagram yang bisa menggambarkan keterkaitan antara semua point-point di bawah ini:
-
-- Docker image
-- Container
-- dockerd
-- docker client
-- docker compose
-- docker swarm
-__Jawab__:
 ![diagram-docker](gambar-19.png)
 __Penjelasan__:
 - __Docker Image__: Ini adalah paket yang berisi segala sesuatu yang diperlukan untuk menjalankan sebuah aplikasi, termasuk kode, runtime, pustaka, dan dependensinya. Docker image dapat dianggap sebagai template dari suatu lingkungan aplikasi.
