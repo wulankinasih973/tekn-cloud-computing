@@ -1,6 +1,6 @@
 # Tugas Minggu 08
 ![diagram-docker](gambar-19.png)
-__Penjelasan__:
+
 - __Docker Image__: Ini adalah paket yang berisi segala sesuatu yang diperlukan untuk menjalankan sebuah aplikasi, termasuk kode, runtime, pustaka, dan dependensinya. Docker image dapat dianggap sebagai template dari suatu lingkungan aplikasi.
 - __Container__: Ini adalah instance yang berjalan dari Docker image. Container menyediakan lingkungan yang terisolasi untuk menjalankan aplikasi tanpa mengganggu sistem host. Container dapat dihentikan, dimulai, dihapus, dan dikelola dengan mudah.
 - __dockerd (Docker Daemon)__: Ini adalah proses latar belakang yang menjalankan dan mengelola container pada host sistem. Docker daemon berkomunikasi dengan Docker API dan menerima perintah dari Docker client. Ia juga bertanggung jawab atas pembuatan, menjalankan, dan mengelola container.
