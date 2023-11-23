@@ -13,6 +13,7 @@ Jalankan perintah di bawah ini:
 docker container run alpine hostname
 ```
 ![single-task](gambar-02.png)
+
 Anda dapat melihat list semua container dengan perintah berikut:
 ```
 docker container ls --all
@@ -24,8 +25,10 @@ Untuk menjalankan container secara interaktif, jalankan perintah berikut ini:
 docker container run --interactive --tty --rm ubuntu bash
 ``` 
 ![run-interactive](gambar-04.png)
+
 Di dalam shell, kita dapat mengeksekusi perintah-perintah seperti ls, ps, dan cat
 ![ls-ps-cat](gambar-05.png)
+
 Eksekusi perintah `exit` untuk keluar dari shell.
 #### Run a background MySQL container
 Jalankan perintah di bawah ini:
@@ -38,11 +41,13 @@ docker container run \
 ```
 ![mysql-container](gambar-06.png)
 ![mysql-container](gambar-07.png)
+
 Anda dapat mengecek container yang sedang berjalan dengan perintah berikut:
 ```
 docker container ls
 ```
 ![checking-running-container](gambar-08.png)
+
 Untuk menjalankan perintah di dalam container yang sedang berjalan, gunakan perintah berikut:
 ```
 docker exec -it mydb \
@@ -85,6 +90,7 @@ docker container run \
 
 Berikut adalah tampilan yang dihasilkan:
 ![hasil-tampilan](gambar-16.png)
+
 Hapus container dengan perintah berikut:
 ```
 docker container rm --force linux_tweet_app
@@ -108,6 +114,7 @@ cp index-new.html index.html
 ```
 Berikut perubahan tampilan yang dihasilkan:
 ![hasil-tampilan](gambar-19.png)
+
 Hapus container dengan perintah berikut ini:
 ```
 docker rm --force linux_tweet_app
@@ -124,6 +131,7 @@ docker container run \
 
 Tampilan halaman akan sama seperti sebelum dimodifikasi
 ![hasil-tampilan](gambar-21.png)
+
 Hapus kembali container dengan perintah berikut:
 ```
 docker rm --force linux_tweet_app
@@ -164,10 +172,11 @@ Push image ke DockerHub. Login dengan menggunakan perintah `docker login`
 ![docker-container-run](gambar-28.png)
 
 Push image versi pertama:
-![docker-image-push](gambar-29.png)
 ```
 docker image push $DOCKERID/linux_tweet_app:1.0
 ```
+![docker-image-push](gambar-29.png)
+
 Push image versi kedua:
 ```
 docker image push $DOCKERID/linux_tweet_app:2.0
