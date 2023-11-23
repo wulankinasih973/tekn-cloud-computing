@@ -52,6 +52,7 @@ docker exec -it mydb \
 ### Task 2: Package and run a custom app using Docker
 Masuk ke dalam direktori `linux_tweet_app`
 ![cd-linux-tweet-app](gambar-10.png)
+
 Cek isi file Dockerfile dengan perintah:
 ```
 cat Dockerfile
