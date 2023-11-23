@@ -59,17 +59,20 @@ Cek isi file Dockerfile dengan perintah:
 cat Dockerfile
 ```
 ![cd-linux-tweet-app](gambar-11.png)
+
 Export DOCKERID:
 ```
 export DOCKERID=<NAMA DOCKER ID ANDA>
 ```
 ![echo-dockerid](gambar-12.png)
+
 Gunakan perintah `docker image build` untuk membuat image Docker baru menggunakan instruksi di Dockerfile. `--tag` untuk memberikan nama khusus pada image.
 ```
 docker image build --tag $DOCKERID/linux_tweet_app:1.0 .
 ```
 ![docker-image-buid](gambar-13.png)
 ![docker-image-buid](gambar-14.png)
+
 Buat container baru menggunakan image yang sudah dibuat sebelumnya.
 ```
 docker container run \
@@ -79,6 +82,7 @@ docker container run \
  $DOCKERID/linux_tweet_app:1.0
 ```
 ![docker-container-run](gambar-15.png)
+
 Berikut adalah tampilan yang dihasilkan:
 ![hasil-tampilan](gambar-16.png)
 Hapus container dengan perintah berikut:
@@ -97,6 +101,7 @@ docker container run \
  $DOCKERID/linux_tweet_app:1.0
 ```
 ![docker-container-run](gambar-18.png)
+
 Ganti `index.html` dengan `index-new.html`
 ```
 cp index-new.html index.html
@@ -116,6 +121,7 @@ docker container run \
  $DOCKERID/linux_tweet_app:1.0
 ```
 ![docker-container-run](gambar-20.png)
+
 Tampilan halaman akan sama seperti sebelum dimodifikasi
 ![hasil-tampilan](gambar-21.png)
 Hapus kembali container dengan perintah berikut:
@@ -127,11 +133,13 @@ Lakukan update image dengan perintah berikut:
 docker image build --tag $DOCKERID/linux_tweet_app:2.0 .
 ```
 ![docker-image-build](gambar-22.png)
+
 Cek dengan perintah `ls`
 ```
 docker image ls
 ```
 ![docker-image-ls](gambar-23.png)
+
 Jalankan container menggunakan image yang telah diupdate:
 ```
 docker container run \
@@ -154,6 +162,7 @@ docker container run \
 ![docker-container-run](gambar-27.png)
 Push image ke DockerHub. Login dengan menggunakan perintah `docker login`
 ![docker-container-run](gambar-28.png)
+
 Push image versi pertama:
 ![docker-image-push](gambar-29.png)
 ```
@@ -164,6 +173,7 @@ Push image versi kedua:
 docker image push $DOCKERID/linux_tweet_app:2.0
 ```
 ![docker-image-push](gambar-30.png)
+
 Cek pada repo DockerHub anda:
 ![cek-dockerhub](gambar-31.png)
 ![cek-dockerhub](gambar-32.png)
