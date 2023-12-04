@@ -53,6 +53,7 @@ docker run -dt ubuntu sleep infinity
 ![docker-run](gambar-08.png)
 
 Jalankan kembali perintah `brctl show`.
+
 ![brctl-show](gambar-09.png)
 
 Jalankan perintah `docker network inspect bridge` untuk melihat konfigurasi network.
@@ -60,6 +61,7 @@ Jalankan perintah `docker network inspect bridge` untuk melihat konfigurasi netw
 
 ### Step 3: Test network connectivity
 Lakukan ping dari Docker host ke container.
+
 ![ping](gambar-11.png)
 
 Untuk melihat ID container, jalankan perintah berikut:
@@ -86,6 +88,7 @@ Jalankan container baru dengan image NGINX
 docker run --name web1 -d -p 8080:80 nginx
 ```
 ![docker-run](gambar-16.png)
+
 ![](gambar-17.png)
 
 ## Section #3 - Overlay Networking
@@ -97,12 +100,16 @@ docker swarm init --advertise-addr $(hostname -i)
 ![docker-swarm-init](gambar-18.png)
 
 Lakukan join pada node ke-2:
+
 ![docker-swarm-join](gambar-19.png)
+
 ![docker-ls](gambar-20.png)
 
 ### Step 2: Create an overlay network
 Jalankan perintah berikut pada node ke-1:
+
 ![docker-network-create](gambar-21.png)
+
 ![docker-ls](gambar-22.png)
 
 ### Step 3: Create a service
@@ -116,6 +123,7 @@ ubuntu sleep infinity
 ![docker-service-create](gambar-23.png)
 
 Cek konfigurasi network
+
 ![docker-ls](gambar-24.png)
 
 ### Step 4: Test the network
@@ -127,6 +135,7 @@ apt-get update && apt-get install -y iputils-ping
 ![apt-get install iputils-ping](gambar-26.png)
 
 Kemudian lakukan ping
+
 ![ping](gambar-27.png)
 
 ### Step 5: Test service discovery
@@ -134,9 +143,11 @@ Masih di dalam kontainer sebelumnya, jalankan perintah berikut:
 ![](gambar-28.png)
 
 Lakukan ping
+
 ![ping](gambar-29.png)
 
 Inspect konfigurasi myservice:
+
 ![](gambar-30.png)
 
 ## Cleaning Up
@@ -147,5 +158,7 @@ docker service rm myservice
 ![remove-myservice](gambar-31.png)
 
 Menghapus node 1 dan node 2 dari Swarm. Jalankan pada node 1 dan node 2 perintah berikut ini:
+
 ![](gambar-32.png)
+
 ![](gambar-33.png)
